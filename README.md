@@ -9,3 +9,7 @@ HW2-Task1
 2. 对数据集进行data augmentation：cutmix.py, cutout.py, mixup.py放在data_aug文件夹中。
 3. dataset.py文件用来读取CIFAR-10；picture.py选择数据增强方式处理样本；train,py和test.py训练和测试。
 4. 参数设置： batch_size=128；learning_rate初始化=0.1；learning_rate decay: MILESTONES=[60,120,160];γ=0.2 warmup从0到0.1 in first epoch; 优化器：momentum SGD with momentum=0.9 and decay_rate=5e-4；EPOCH=200; 损失函数：Cross Entropy Loss。
+
+# 模型参数
+百度网盘链接：https://pan.baidu.com/s/1kMe1JOqYZa8x9qehgokVRg 
+提取码：stnz
